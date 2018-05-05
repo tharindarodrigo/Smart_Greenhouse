@@ -1,0 +1,1239 @@
+[
+  {
+    "@id": "template01",
+    "input": {
+      "area": {
+        "min": "0",
+        "max": "499"
+      },
+      "crop": "carrot"
+    },
+    "devices": [
+      {
+        "deviceType": "Fan",
+        "device-count": "4",
+        "single-device": [
+          {
+            "device-name": "Fan1",
+            "device-location": {
+              "x": "0",
+              "y": "0"
+            }
+          },
+          {
+            "device-name": "Fan2",
+            "device-location": {
+              "x": "0",
+              "y": "50"
+            }
+          },
+          {
+            "device-name": "Fan3",
+            "device-location": {
+              "x": "0",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Fan4",
+            "device-location": {
+              "x": "50",
+              "y": "0"
+            }
+          },
+          {
+            "device-name": "Fan5",
+            "device-location": {
+              "x": "100",
+              "y": "0"
+            }
+          },
+          {
+            "device-name": "Fan6",
+            "device-location": {
+              "x": "100",
+              "y": "50"
+            }
+          },
+          {
+            "device-name": "Fan7",
+            "device-location": {
+              "x": "100",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Fan8",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "deviceType": "Sprinkler",
+        "device-count": "5",
+        "single-device": [
+          {
+            "device-name": "Sprinkler1",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler2",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler3",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler4",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler5",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler6",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler7",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler8",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler9",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler10",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "deviceType": "HUB",
+        "device-count": "1",
+        "single-device": [
+          {
+            "device-name": "Hub1",
+            "device-location": {
+              "x": "0",
+              "y": "25"
+            }
+          },
+          {
+            "device-name": "Hub2",
+            "device-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      }
+    ],
+    "sensors": [
+      {
+        "sensorType": "Humidity",
+        "sensor-count": "1",
+        "single-sensor": [
+          {
+            "sensor-name": "Humidity1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "Humidity2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "sensorType": "Temperature",
+        "sensor-count": "1",
+        "single-sensor": [
+          {
+            "sensor-name": "Temperature1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "Temperature2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "sensorType": "Light_intensity",
+        "sensor-count": "1",
+        "single-sensor": [
+          {
+            "sensor-name": "Light_intensity1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "Light_intensity2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "sensorType": "pH",
+        "sensor-count": "1",
+        "single-sensor": [
+          {
+            "sensor-name": "pH1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "pH2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "sensorType": "soil_moisture",
+        "sensor-count": "1",
+        "single-sensor": [
+          {
+            "sensor-name": "soil_moisture1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "soil_moisture2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "sensorType": "electrical_conductivity",
+        "sensor-count": "1",
+        "single-sensor": [
+          {
+            "sensor-name": "electrical_conductivity1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "electrical_conductivity2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      }
+    ],
+    "scenes": {
+      "scene": {
+        "@id": "scene1",
+        "input-condition": {
+          "sensor": "Humidity",
+          "value": "50%",
+          "control": "Less"
+        },
+        "actions": {
+          "action": {
+            "action-id": "action1",
+            "device": "Sprinkler",
+            "status": "active"
+          }
+        }
+      }
+    }
+  },
+  {
+    "@id": "template02",
+    "input": {
+      "area": {
+        "min": "500",
+        "max": "1000"
+      },
+      "crop": "carrot"
+    },
+    "devices": [
+      {
+        "deviceType": "Fan",
+        "device-count": "8",
+        "single-device": [
+          {
+            "device-name": "Fan1",
+            "device-location": {
+              "x": "0",
+              "y": "0"
+            }
+          },
+          {
+            "device-name": "Fan2",
+            "device-location": {
+              "x": "0",
+              "y": "50"
+            }
+          },
+          {
+            "device-name": "Fan3",
+            "device-location": {
+              "x": "0",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Fan4",
+            "device-location": {
+              "x": "50",
+              "y": "0"
+            }
+          },
+          {
+            "device-name": "Fan5",
+            "device-location": {
+              "x": "100",
+              "y": "0"
+            }
+          },
+          {
+            "device-name": "Fan6",
+            "device-location": {
+              "x": "100",
+              "y": "50"
+            }
+          },
+          {
+            "device-name": "Fan7",
+            "device-location": {
+              "x": "100",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Fan8",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "deviceType": "Sprinkler",
+        "device-count": "10",
+        "single-device": [
+          {
+            "device-name": "Sprinkler1",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler2",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler3",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler4",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler5",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler6",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler7",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler8",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler9",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler10",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "deviceType": "HUB",
+        "device-count": "2",
+        "single-device": [
+          {
+            "device-name": "Hub1",
+            "device-location": {
+              "x": "0",
+              "y": "25"
+            }
+          },
+          {
+            "device-name": "Hub2",
+            "device-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      }
+    ],
+    "sensors": [
+      {
+        "sensorType": "Humidity",
+        "sensor-count": "2",
+        "single-sensor": [
+          {
+            "sensor-name": "Humidity1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "Humidity2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "sensorType": "Temperature",
+        "sensor-count": "2",
+        "single-sensor": [
+          {
+            "sensor-name": "Temperature1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "Temperature2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "sensorType": "Light_intensity",
+        "sensor-count": "2",
+        "single-sensor": [
+          {
+            "sensor-name": "Light_intensity1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "Light_intensity2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "sensorType": "pH",
+        "sensor-count": "2",
+        "single-sensor": [
+          {
+            "sensor-name": "pH1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "pH2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "sensorType": "soil_moisture",
+        "sensor-count": "2",
+        "single-sensor": [
+          {
+            "sensor-name": "soil_moisture1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "soil_moisture2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "sensorType": "electrical_conductivity",
+        "sensor-count": "2",
+        "single-sensor": [
+          {
+            "sensor-name": "electrical_conductivity1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "electrical_conductivity2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      }
+    ],
+    "scenes": {
+      "scene": {
+        "@id": "scene1",
+        "input-condition": {
+          "sensor": "Humidity",
+          "value": "50%",
+          "control": "Less"
+        },
+        "actions": {
+          "action": {
+            "action-id": "action1",
+            "device": "Sprinkler",
+            "status": "active"
+          }
+        }
+      }
+    }
+  },
+  {
+    "@id": "template03",
+    "input": {
+      "area": {
+        "min": "1001",
+        "max": "1500"
+      },
+      "crop": "carrot"
+    },
+    "devices": [
+      {
+        "deviceType": "Fan",
+        "device-count": "16",
+        "single-device": [
+          {
+            "device-name": "Fan1",
+            "device-location": {
+              "x": "0",
+              "y": "0"
+            }
+          },
+          {
+            "device-name": "Fan2",
+            "device-location": {
+              "x": "0",
+              "y": "50"
+            }
+          },
+          {
+            "device-name": "Fan3",
+            "device-location": {
+              "x": "0",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Fan4",
+            "device-location": {
+              "x": "50",
+              "y": "0"
+            }
+          },
+          {
+            "device-name": "Fan5",
+            "device-location": {
+              "x": "100",
+              "y": "0"
+            }
+          },
+          {
+            "device-name": "Fan6",
+            "device-location": {
+              "x": "100",
+              "y": "50"
+            }
+          },
+          {
+            "device-name": "Fan7",
+            "device-location": {
+              "x": "100",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Fan8",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "deviceType": "Sprinkler",
+        "device-count": "20",
+        "single-device": [
+          {
+            "device-name": "Sprinkler1",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler2",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler3",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler4",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler5",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler6",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler7",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler8",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler9",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler10",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "deviceType": "HUB",
+        "device-count": "4",
+        "single-device": [
+          {
+            "device-name": "Hub1",
+            "device-location": {
+              "x": "0",
+              "y": "25"
+            }
+          },
+          {
+            "device-name": "Hub2",
+            "device-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      }
+    ],
+    "sensors": [
+      {
+        "sensorType": "Humidity",
+        "sensor-count": "4",
+        "single-sensor": [
+          {
+            "sensor-name": "Humidity1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "Humidity2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "sensorType": "Temperature",
+        "sensor-count": "2",
+        "single-sensor": [
+          {
+            "sensor-name": "Temperature1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "Temperature2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "sensorType": "Light_intensity",
+        "sensor-count": "4",
+        "single-sensor": [
+          {
+            "sensor-name": "Light_intensity1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "Light_intensity2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "sensorType": "pH",
+        "sensor-count": "4",
+        "single-sensor": [
+          {
+            "sensor-name": "pH1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "pH2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "sensorType": "soil_moisture",
+        "sensor-count": "5",
+        "single-sensor": [
+          {
+            "sensor-name": "soil_moisture1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "soil_moisture2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "sensorType": "electrical_conductivity",
+        "sensor-count": "8",
+        "single-sensor": [
+          {
+            "sensor-name": "electrical_conductivity1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "electrical_conductivity2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      }
+    ],
+    "scenes": {
+      "scene": {
+        "@id": "scene1",
+        "input-condition": {
+          "sensor": "Humidity",
+          "value": "50%",
+          "control": "Less"
+        },
+        "actions": {
+          "action": {
+            "action-id": "action1",
+            "device": "Sprinkler",
+            "status": "active"
+          }
+        }
+      }
+    }
+  },
+  {
+    "@id": "template04",
+    "input": {
+      "area": {
+        "min": "1501",
+        "max": "2000"
+      },
+      "crop": "carrot"
+    },
+    "devices": [
+      {
+        "deviceType": "Fan",
+        "device-count": "40",
+        "single-device": [
+          {
+            "device-name": "Fan1",
+            "device-location": {
+              "x": "0",
+              "y": "0"
+            }
+          },
+          {
+            "device-name": "Fan2",
+            "device-location": {
+              "x": "0",
+              "y": "50"
+            }
+          },
+          {
+            "device-name": "Fan3",
+            "device-location": {
+              "x": "0",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Fan4",
+            "device-location": {
+              "x": "50",
+              "y": "0"
+            }
+          },
+          {
+            "device-name": "Fan5",
+            "device-location": {
+              "x": "100",
+              "y": "0"
+            }
+          },
+          {
+            "device-name": "Fan6",
+            "device-location": {
+              "x": "100",
+              "y": "50"
+            }
+          },
+          {
+            "device-name": "Fan7",
+            "device-location": {
+              "x": "100",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Fan8",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "deviceType": "Sprinkler",
+        "device-count": "80",
+        "single-device": [
+          {
+            "device-name": "Sprinkler1",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler2",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler3",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler4",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler5",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler6",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler7",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler8",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler9",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          },
+          {
+            "device-name": "Sprinkler10",
+            "device-location": {
+              "x": "50",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "deviceType": "HUB",
+        "device-count": "8",
+        "single-device": [
+          {
+            "device-name": "Hub1",
+            "device-location": {
+              "x": "0",
+              "y": "25"
+            }
+          },
+          {
+            "device-name": "Hub2",
+            "device-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      }
+    ],
+    "sensors": [
+      {
+        "sensorType": "Humidity",
+        "sensor-count": "5",
+        "single-sensor": [
+          {
+            "sensor-name": "Humidity1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "Humidity2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "sensorType": "Temperature",
+        "sensor-count": "4",
+        "single-sensor": [
+          {
+            "sensor-name": "Temperature1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "Temperature2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "sensorType": "Light_intensity",
+        "sensor-count": "6",
+        "single-sensor": [
+          {
+            "sensor-name": "Light_intensity1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "Light_intensity2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "sensorType": "pH",
+        "sensor-count": "6",
+        "single-sensor": [
+          {
+            "sensor-name": "pH1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "pH2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "sensorType": "soil_moisture",
+        "sensor-count": "40",
+        "single-sensor": [
+          {
+            "sensor-name": "soil_moisture1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "soil_moisture2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      },
+      {
+        "sensorType": "electrical_conductivity",
+        "sensor-count": "20",
+        "single-sensor": [
+          {
+            "sensor-name": "electrical_conductivity1",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          },
+          {
+            "sensor-name": "electrical_conductivity2",
+            "sensor-location": {
+              "x": "75",
+              "y": "100"
+            }
+          }
+        ]
+      }
+    ],
+    "scenes": {
+      "scene": {
+        "@id": "scene1",
+        "input-condition": {
+          "sensor": "Humidity",
+          "value": "50%",
+          "control": "Less"
+        },
+        "actions": {
+          "action": {
+            "action-id": "action1",
+            "device": "Sprinkler",
+            "status": "active"
+          }
+        }
+      }
+    }
+  }
+]
+
