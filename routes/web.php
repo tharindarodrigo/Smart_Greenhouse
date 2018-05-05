@@ -46,7 +46,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::get('index', [
-    'middleware' => 'auth',
+//    'middleware' => 'auth',
     'uses' => 'analyticsController@analytics'
 ]);
 
